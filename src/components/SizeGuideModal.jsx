@@ -32,7 +32,7 @@ export default function SizeGuideModal() {
       aria-label="Size guide"
     >
       <div className="absolute inset-0 bg-ink/40" onClick={closeSizeGuide} aria-hidden="true" />
-      <div className="relative w-full max-w-2xl bg-ivory p-8 sm:p-10 animate-fadeUp">
+      <div className="relative w-full max-w-2xl bg-white p-8 sm:p-10 animate-fadeUp">
         <div className="flex items-start justify-between">
           <div>
             <p className="eyebrow">Size Guide</p>

@@ -44,7 +44,7 @@ export default function SearchOverlay() {
 
   return (
     <div
-      className="fixed inset-0 z-50 bg-ivory animate-fadeIn"
+      className="fixed inset-0 z-50 bg-white animate-fadeIn"
       role="dialog"
       aria-modal="true"
       aria-label="Search"
@@ -117,7 +117,7 @@ export default function SearchOverlay() {
                     <Link
                       to={`/products/${p.slug}`}
                       onClick={closeSearch}
-                      className="group flex items-center gap-6 py-5 transition-colors duration-500 hover:bg-ivory/60"
+                      className="group flex items-center gap-6 py-5 transition-colors duration-500 hover:bg-white/60"
                     >
                       <img
                         src={p.images[0]}

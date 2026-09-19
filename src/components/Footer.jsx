@@ -41,7 +41,7 @@ const columns = [
 
 export default function Footer() {
   return (
-    <footer className="border-t border-line bg-ivory" role="contentinfo">
+    <footer className="border-t border-line bg-white" role="contentinfo">
       <div className="container-lux py-16 sm:py-24">
         <div className="font-serif text-[18vw] leading-none tracking-tighter text-ink sm:text-[10rem] lg:text-[14rem] select-none">
           avé

@@ -37,7 +37,7 @@ export default function Home() {
             <div className="mt-10">
               <Link
                 to="/shop"
-                className="group inline-flex items-center gap-4 border border-ivory px-10 py-4 text-[11px] uppercase tracking-widest2 text-ivory transition-all duration-500 ease-lux hover:bg-ivory hover:text-ink"
+                className="group inline-flex items-center gap-4 border border-ivory px-10 py-4 text-[11px] uppercase tracking-widest2 text-ivory transition-all duration-500 ease-lux hover:bg-white hover:text-ink"
               >
                 Explore Collection
                 <span className="transition-transform duration-500 ease-lux group-hover:translate-x-1">→</span>
@@ -136,7 +136,7 @@ export default function Home() {
             <div className="mt-10">
               <Link
                 to="/shop?sort=newest"
-                className="group inline-flex items-center gap-4 border border-ivory px-10 py-4 text-[11px] uppercase tracking-widest2 text-ivory transition-all duration-500 ease-lux hover:bg-ivory hover:text-ink"
+                className="group inline-flex items-center gap-4 border border-ivory px-10 py-4 text-[11px] uppercase tracking-widest2 text-ivory transition-all duration-500 ease-lux hover:bg-white hover:text-ink"
               >
                 Discover Drop 001
                 <span className="transition-transform duration-500 ease-lux group-hover:translate-x-1">→</span>

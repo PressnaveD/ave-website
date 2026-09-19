@@ -72,14 +72,14 @@ export default function ImageGallery({ images = [], alt = '' }) {
           <div className="lg:hidden absolute inset-x-0 top-1/2 -translate-y-1/2 flex justify-between px-3">
             <button
               onClick={prev}
-              className="bg-ivory/85 p-2"
+              className="bg-white/85 p-2"
               aria-label="Previous image"
             >
               <ChevronLeft className="h-4 w-4" strokeWidth={1.25} />
             </button>
             <button
               onClick={next}
-              className="bg-ivory/85 p-2"
+              className="bg-white/85 p-2"
               aria-label="Next image"
             >
               <ChevronRight className="h-4 w-4" strokeWidth={1.25} />
@@ -87,7 +87,7 @@ export default function ImageGallery({ images = [], alt = '' }) {
           </div>
         )}
 
-        <div className="absolute bottom-3 right-3 bg-ivory/85 px-3 py-1.5 text-[10px] uppercase tracking-widest2 text-ink tabular-nums">
+        <div className="absolute bottom-3 right-3 bg-white/85 px-3 py-1.5 text-[10px] uppercase tracking-widest2 text-ink tabular-nums">
           {active + 1} / {images.length}
         </div>
       </div>

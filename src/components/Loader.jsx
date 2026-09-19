@@ -11,7 +11,7 @@ export default function Loader() {
   return (
     <div
       className={[
-        'fixed inset-0 z-[100] flex items-center justify-center bg-ivory',
+        'fixed inset-0 z-[100] flex items-center justify-center bg-white',
         'transition-opacity duration-500 ease-lux',
         hidden ? 'pointer-events-none opacity-0' : 'opacity-100',
       ].join(' ')}

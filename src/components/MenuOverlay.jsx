@@ -29,7 +29,7 @@ export default function MenuOverlay() {
 
   return (
     <div
-      className="fixed inset-0 z-50 bg-ivory animate-fadeIn"
+      className="fixed inset-0 z-50 bg-white animate-fadeIn"
       role="dialog"
       aria-modal="true"
       aria-label="Main menu"

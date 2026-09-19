@@ -25,10 +25,10 @@ export default function Header() {
       className={[
         'fixed inset-x-0 top-0 z-40 transition-all duration-500 ease-lux',
         scrolled
-          ? 'h-14 sm:h-16 bg-ivory/85 backdrop-blur-md border-b border-line'
+          ? 'h-14 sm:h-16 bg-white/85 backdrop-blur-md border-b border-line'
           : 'h-16 sm:h-20',
         transparent ? 'bg-transparent border-transparent' : '',
-        !scrolled && !transparent ? 'bg-ivory border-b border-line' : '',
+        !scrolled && !transparent ? 'bg-white border-b border-line' : '',
       ].join(' ')}
       role="banner"
     >

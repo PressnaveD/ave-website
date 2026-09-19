@@ -38,7 +38,7 @@ export function MobileFilterSheet({ open, onClose, children }) {
       )}
       <div
         className={[
-          'fixed inset-x-0 bottom-0 z-50 max-h-[85vh] overflow-y-auto bg-ivory lg:hidden',
+          'fixed inset-x-0 bottom-0 z-50 max-h-[85vh] overflow-y-auto bg-white lg:hidden',
           'transition-transform duration-500 ease-lux',
           open ? 'translate-y-0' : 'translate-y-full',
         ].join(' ')}
@@ -46,7 +46,7 @@ export function MobileFilterSheet({ open, onClose, children }) {
         aria-modal="true"
         aria-label="Filters"
       >
-        <div className="sticky top-0 flex items-center justify-between border-b border-line bg-ivory px-6 py-4">
+        <div className="sticky top-0 flex items-center justify-between border-b border-line bg-white px-6 py-4">
           <p className="nav-link">Filters</p>
           <button onClick={onClose} aria-label="Close filters">
             <X className="h-5 w-5" strokeWidth={1.25} />

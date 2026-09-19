@@ -43,7 +43,7 @@ export default function ProductCard({ product, priority = false }) {
             hovered ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2',
           ].join(' ')}
         >
-          <span className="bg-ivory/95 px-5 py-2.5 text-[10px] uppercase tracking-widest2 text-ink">
+          <span className="bg-white/95 px-5 py-2.5 text-[10px] uppercase tracking-widest2 text-ink">
             Quick View
           </span>
         </div>
