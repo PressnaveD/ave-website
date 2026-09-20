@@ -8,7 +8,7 @@ import { UIProvider } from './context/UIContext.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/ave-website">
+    <BrowserRouter >
       <UIProvider>
         <CartProvider>
           <App />
